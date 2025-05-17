@@ -1,9 +1,60 @@
-<HTML>
-<HEAD>
-<TITLE>Welcome to PacificNW.life</TITLE>
-<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
-</HEAD>
-<BODY BGCOLOR=#f2f0e3><div style="margin-left: -15px; margin-top: -15px; margin-bottom: -15px;">
-<IMG SRC="index.jpg" WIDTH=1072 HEIGHT=1388 ALT="">
-</BODY>
-</HTML>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to PacificNW.life</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background: linear-gradient(to bottom, #5e90e5, #a3c3f0);
+      font-family: sans-serif;
+      color: white;
+    }
+
+    .full-image {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+
+    .full-image img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+
+    .link-overlay {
+      position: absolute;
+      bottom: 3.5em;
+      width: 100%;
+      text-align: center;
+      font-size: 1.0em;
+    }
+
+    .link-overlay a {
+      color: white;
+      text-decoration: none;
+      border-bottom: 1px solid white;
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 6px 12px;
+      border-radius: 6px;
+    }
+
+    .link-overlay a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="full-image">
+    <img src="index.jpg" alt="Welcome to PacificNW.life">
+    <div class="link-overlay">
+      <a href="https://svsolstice.pacificnw.life">Visit SV Solstice</a>
+    </div>
+  </div>
+</body>
+</html>
